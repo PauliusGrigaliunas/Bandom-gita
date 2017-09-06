@@ -12,6 +12,14 @@ namespace ConsoleApp1
         {
             int a, b;
             Console.WriteLine("Hi dudes, git works");
+            b = Sub(5, 3);
+            
         }
+
+        static int Sub(int a, int b) {
+            return a - b;
+        }
+
+
     }
 }
