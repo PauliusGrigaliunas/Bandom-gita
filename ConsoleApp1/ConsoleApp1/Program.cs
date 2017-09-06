@@ -12,6 +12,11 @@ namespace ConsoleApp1
         {
             int a, b;
             Console.WriteLine("Hi dudes, git works");
+            a = Suma(2, 3);
+        }
+        static int Suma (int a, int b)
+        {
+            return a + b;
         }
     }
 }
