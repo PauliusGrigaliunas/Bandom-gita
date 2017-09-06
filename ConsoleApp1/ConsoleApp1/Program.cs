@@ -27,9 +27,9 @@ namespace ConsoleApp1
             return a - b;
         }
 
-        static int Mul(int a, int b)
+        static int Mul(int a1, int b1)
         {
-            return a * b;
+            return a1 * b1;
         }
     }
 }
