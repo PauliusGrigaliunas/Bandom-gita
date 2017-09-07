@@ -31,5 +31,11 @@ namespace ConsoleApp1
         {
             return a1 * b1;
         }
+        
+        static string SayingHi()
+        {
+            string greeting = "Oy m8!";
+            return greeting;
+        }
     }
 }
